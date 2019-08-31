@@ -3,6 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "@/assets/css/common.css";
+import "@/assets/css/animate.css";
+
 Vue.config.productionTip = false;
 
 new Vue({

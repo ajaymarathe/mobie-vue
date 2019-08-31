@@ -1,6 +1,17 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import Index from "./views/index.vue";
+import Accordion from "./components/accordion.vue";
+import ActionSheet from "./components/actionsheet.vue";
+import Badge from "./components/badge.vue";
+import Buttons from "./components/buttons.vue";
+import Cards from "./components/cards.vue";
+import Carousel from "./components/carousel.vue";
+import Footer from "./components/footer.vue";
+import Forms from "./components/forms.vue";
+import Home from "./components/home.vue";
+import Progress from "./components/progress.vue";
+import Spinners from "./components/spinners.vue";
 
 Vue.use(Router);
 
@@ -8,17 +19,23 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      name: "index",
+      component: Index
     },
     {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+      path: "/accordion",
+      name: "Accordion",
+      component: Accordion
+    },
+    {
+      path: "/action_sheet",
+      name: "Action Sheet",
+      component: ActionSheet
+    },
+    {
+      path: "/badge",
+      name: "Badge",
+      component: Badge
     }
   ]
 });

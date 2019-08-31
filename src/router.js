@@ -7,7 +7,6 @@ import Badge from "./components/badge.vue";
 import Buttons from "./components/buttons.vue";
 import Cards from "./components/cards.vue";
 import Carousel from "./components/carousel.vue";
-import Footer from "./components/footer.vue";
 import Forms from "./components/forms.vue";
 import Home from "./components/home.vue";
 import Progress from "./components/progress.vue";
@@ -36,6 +35,41 @@ export default new Router({
       path: "/badge",
       name: "Badge",
       component: Badge
+    },
+    {
+      path: "/buttons",
+      name: "Buttons",
+      component: Buttons
+    },
+    {
+      path: "/cards",
+      name: "Cards",
+      component: Cards
+    },
+    {
+      path: "/carosel",
+      name: "Carousel",
+      component: Carousel
+    },
+    {
+      path: "/forms",
+      name: "Forms",
+      component: Forms
+    },
+    {
+      path: "/home",
+      name: "Home",
+      component: Home
+    },
+    {
+      path: "/progress",
+      name: "Progress",
+      component: Progress
+    },
+    {
+      path: "/spinners",
+      name: "Spinners",
+      component: Spinners
     }
   ]
 });

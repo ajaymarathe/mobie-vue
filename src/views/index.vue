@@ -22,9 +22,9 @@
               </div>
               <div class="col-md-4">
                   <div class="mobile-view">
-                      <!-- <iframe class="mobile-view" src="../components/home.vue">
-                        <p>Your browser does not support iframes.</p>
-                      </iframe> -->
+                    <!-- <iframe class="mobile-view" src="../components/home.vue"> -->
+                        <!-- <p>Your browser does not support iframes.</p> -->
+                    <!-- </iframe>  -->
                       <Home/>
                   </div>
               </div>

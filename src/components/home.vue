@@ -4,7 +4,7 @@
         <Nav :title="title" />
         <!-- end navbar -->
          <ul class="list-group list-group-flush">
-            <router-link to="accordion">
+            <router-link to="hello">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -13,7 +13,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="buttons.html">
+            <router-link to="buttons">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -22,7 +22,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="action-sheet.html">
+            <router-link to="actionsheet">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -31,7 +31,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="badge.html">
+            <router-link to="badge">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -40,7 +40,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="spinners.html">
+            <router-link to="spinners">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -49,7 +49,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="cards.html">
+            <router-link to="cards">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -59,7 +59,7 @@
                 </li>
             </router-link>
 
-            <router-link href="forms.html">
+            <router-link to="forms">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -68,7 +68,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="#">
+            <router-link to="contact_list">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -77,7 +77,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="#">
+            <router-link to="contect_block">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -86,7 +86,7 @@
                     <i class="material-icons mr-1">keyboard_arrow_right</i>
                 </li>
             </router-link>
-            <router-link href="#">
+            <router-link to="modal">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>
@@ -96,7 +96,7 @@
                 </li>
             </router-link>
 
-            <router-link href="#">
+            <router-link to="grid">
                 <li class="list-group-item d-flex justify-content-between">
                     <div class="d-flex align-items-center">
                         <i class="material-icons mr-4">favorite </i>

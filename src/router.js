@@ -12,11 +12,13 @@ import Home from "./components/home.vue";
 import Progress from "./components/progress.vue";
 import Spinners from "./components/spinners.vue";
 
+// alerts
+import Alerts from "./components/alerts/alerts.vue";
+
 Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: "/",
       name: "index",
       component: Index
@@ -70,6 +72,11 @@ export default new Router({
       path: "/spinners",
       name: "Spinners",
       component: Spinners
+    },
+    {
+      path: "/alerts",
+      name: "Alerts",
+      component: Alerts
     }
   ]
 });

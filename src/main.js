@@ -8,6 +8,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "@/assets/css/common.css";
 import "@/assets/css/animate.css";
 
+import 'prismjs'
+import 'prismjs/themes/prism-tomorrow.css'
+
 Vue.config.productionTip = false;
 
 new Vue({

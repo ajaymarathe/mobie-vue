@@ -1,23 +1,34 @@
+
 <template>
   <div id="app">
-    
-    <router-view />
+    <!-- navbar -->
+    <navbar></navbar>
+    <!-- end navbar -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
+          <sidebar></sidebar>
+        </div>
+        <div class="col-md-8">
+          <router-view />
+        </div>
+        <div class="col-md-2">end content</div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
-
+import navbar from "./components/docs/navbar.vue";
+import sidebar from "./components/docs/sidebar.vue";
 export default {
-  name: "App",
+  name: "get-started",
   components: {
-
-  },
-  data:function(){
-    return {
-      title: "Home"
-    }
+    sidebar,
+    navbar
   }
 };
 </script>
+
+<style lang="scss" scoped>
+</style>

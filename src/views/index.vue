@@ -1,100 +1,38 @@
 <template>
-  <div class="home">
-    <div class="first-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="heading">
-              <h1 class="mb-3 mt-2">Mobie-UI</h1>
-              <h4
-                class="mb-3"
-              >Hi there, Mobie-UI is front-end html framework to create mobile apps using front-end framework like Vue, Angular and React, etc...</h4>
-            </div>
-            <div class="buttons d-flex justify-content-start">
-              <button class="btn btn-primary mr-4 shadow">Get Started</button>
-              <button class="btn btn-info shadow">Download</button>
-            </div>
-            <div class="links d-flex justify-content-start">
-              <a class="mr-2 text-dark" href="#">Docs</a>
-              <a class="mr-2 text-dark" href="#">Templates</a>
-              <a class="mr-2 text-dark" href="#">Forums</a>
-              <a class="mr-2 text-dark" href="#">Showcase</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <m-alert
+            content="This is a primary alert—check it out!"
+            color="primary"
+            dismissible="show"
+          ></m-alert>
+          <m-alert content="This is a success alert—check it out!" color="success"></m-alert>
+          <m-alert show color="success" dismissible="show">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>
+              Aww yeah, you successfully read this important alert message. This example text is going to
+              run a bit longer so that you can see how spacing within an alert works with this kind of
+              content.
+            </p>
+            <hr />
+            <p
+              class="mb-0"
+            >Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+          </m-alert>
 
-    <!-- second section  -->
-    <div class="second-section" style="margin-bottom: 4rem;">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <div class="header">
-              <h3>Use Anything you want?</h3>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-5">
-              <img src="../assets/img/vue.png" style="width: 20%;" />
-              <img src="../assets/img/angular.png" style="width: 20%;" />
-              <img src="../assets/img/react.svg" style="width: 20%;" />
-            </div>
-            <h4>Build anything you love with Mobie-Vue...</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- third section -->
-
-    <div class="third-section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <div class="header">
-              <h3>Let’s Get Started</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- fourth section  -->
-
-    <div class="fourth-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="footer-links">
-              <a href="#">Project</a>
-              <a href="#">Download</a>
-              <a href="#">Blog</a>
-              <a href="#">License</a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="footer-links">
-              <a href="#">Docs</a>
-              <a href="#">Mobie-Vue</a>
-              <a href="#">Mobie-Angular</a>
-              <a href="#">Mobie-React</a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="footer-links">
-              <a href="#">Resources</a>
-              <a href="#">Forum</a>
-              <a href="#">Free Themes</a>
-              <a href="#">License</a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="footer-links">
-              <a href="#">Connect</a>
-              <a href="#">Facebook</a>
-              <a href="#">Github</a>
-              <a href="#">Twitter</a>
-            </div>
-          </div>
+          <m-card>
+            <template v-slot:header>
+              <h6 class="mb-0">Header Slot</h6>
+            </template>
+            <template
+              v-slot:body
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur, enim officiis adipisci, at alias magni nihil corrupti nostrum rerum ipsum possimus corporis eum expedita blanditiis! Illum eius sed nostrum.</template>
+            <template v-slot:footer>
+              <h6 class="mb-0">Footer Slot</h6>
+            </template>
+          </m-card>
         </div>
       </div>
     </div>
@@ -103,13 +41,16 @@
 
 <script>
 // @ is an alias to /src
-// import  Nav  from "@/components/nav.vue";
-import Home from "@/components/home.vue";
+import MAlert from "../components/alerts/m-alert";
+import MCard from "../components/cards/m-card";
+// import MCardHeader from "../components/cards/card-header";
 
 export default {
   name: "home",
   components: {
-    Home
+    MAlert,
+    MCard
+    // MCardHeader
   },
   data: function() {
     return {

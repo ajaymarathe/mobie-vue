@@ -17,6 +17,9 @@
 <script>
 export default {
   name: "m-card",
+  props:{
+    img:String,
+  },
   components: {}
 };
 </script>

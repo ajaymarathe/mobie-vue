@@ -11,6 +11,8 @@ import "@/assets/css/animate.css";
 import 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css';
 
+Vue.component('m-button')
+
 Vue.config.productionTip = false;
 
 new Vue({

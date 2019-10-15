@@ -3,6 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h2>Mobie Alert</h2>
           <m-alert
             content="This is a primary alert—check it out!"
             color="primary"
@@ -21,8 +24,14 @@
               class="mb-0"
             >Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
           </m-alert>
+            </div>
+          </div>
 
-          <m-card>
+         <!-- mobie cards start -->
+         <div class="card">
+           <div class="card-body">
+             <h3>Mobie Cards</h3>
+             <m-card>
             <template v-slot:header>
               <h6 class="mb-0">Header Slot</h6>
             </template>
@@ -33,6 +42,12 @@
               <h6 class="mb-0">Footer Slot</h6>
             </template>
           </m-card>
+           </div>
+         </div>
+
+
+
+
         </div>
       </div>
     </div>

@@ -6,10 +6,10 @@
     <!-- end navbar -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
           <sidebar></sidebar>
-        </div>
-        <div class="col-md-8">
+        </div> -->
+        <div class="col-md-10">
           <router-view />
         </div>
         <div class="col-md-2">end content</div>

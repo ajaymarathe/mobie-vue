@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button>
+    <button :class="[classObject.color,classObject.size]">
       <slot></slot>
     </button>
   </div>
@@ -10,10 +10,16 @@
 export default {
   name: "MobieButtons",
   props: {
-    color: String
+    color: String,
+    size: String
   },
   data() {
-    return {};
+    return {
+      classObject: {
+        color: "btn btn-" + this.color,
+        size: "btn-" + this.size
+      }
+    };
   }
 };
 </script>

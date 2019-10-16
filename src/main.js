@@ -11,7 +11,17 @@ import "@/assets/css/animate.css";
 import 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css';
 
-Vue.component('m-button')
+// material icons
+import 'material-icons/iconfont/material-icons.scss';
+
+//defined as global component
+Vue.component('V-MaterialIcon', require('vue-materials-icon/src/components/MaterialIcon').default);
+
+Vue.component('M-Button', require('./components/buttons/MobieButtons.vue').default);
+
+
+
+
 
 Vue.config.productionTip = false;
 

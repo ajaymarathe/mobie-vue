@@ -54,8 +54,12 @@
               <M-Button color="info" size="lg">click me</M-Button>
               <M-Button color="outline-dark">click me</M-Button>
             </div>
-            <M-Button color="danger" size="block">click me</M-Button>
+            <M-Button color="danger" size="lg" display="block">click me</M-Button>
           </div>
+
+          <!-- Mobie Badge start -->
+          <M-Badge color="primary">Normal</M-Badge>
+          <M-Badge color="primary" size="pill">Badge Pill</M-Badge>
         </div>
       </div>
     </div>

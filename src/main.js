@@ -18,6 +18,7 @@ import 'material-icons/iconfont/material-icons.scss';
 Vue.component('V-MaterialIcon', require('vue-materials-icon/src/components/MaterialIcon').default);
 
 Vue.component('M-Button', require('./components/buttons/MobieButtons.vue').default);
+Vue.component('M-Badge', require('./components/badge/MobieBadge.vue').default);
 
 
 

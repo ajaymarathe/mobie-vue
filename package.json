@@ -1,61 +1,22 @@
 {
-  "name": "demo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-pensive-design-system",
+  "version": "0.0.1",
+  "description": "Vue Pensive Design System is is Coded, Written & Published By Bootcatch, Based on Vue & Bootstrap 4.x ( Bootcatch-themes ).",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "animate.css": "^3.7.2",
-    "bootstrap": "^4.3.1",
-    "core-js": "^2.6.5",
-    "jquery": "^3.4.1",
-    "material-icons": "^0.3.1",
-    "popper.js": "^1.15.0",
-    "prismjs": "^1.17.1",
-    "vue": "^2.6.10",
-    "vue-materials-icon": "^1.3.0",
-    "vue-prism-component": "^1.1.1",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaymarathe/vue-pensive-design-system.git"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
-    "prettier": "^1.18.2",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+  "keywords": [
+    "vue-pensive-design-system", "vue", "vuejs", "vue-design-system", "vue-pensive", "vue-bootcatch", "bootcatch", "vue-uikit", "vue-bootstrap-uikit", "ui-kit", "bootstrap"
+  ],
+  "author": "Ajay Marathe <0107amar@gmail.com> (http://bootcatch.com/lightly)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaymarathe/vue-pensive-design-system/issues"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/prettier"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "homepage": "https://github.com/ajaymarathe/vue-pensive-design-system#readme"
 }

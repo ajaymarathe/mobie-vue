@@ -1,22 +1,41 @@
 {
-  "name": "vue-pensive-design-system",
-  "version": "0.0.1",
-  "description": "Vue Pensive Design System is is Coded, Written & Published By Bootcatch, Based on Vue & Bootstrap 4.x ( Bootcatch-themes ).",
-  "main": "index.js",
+  "name": "mobie-vue",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ajaymarathe/vue-pensive-design-system.git"
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
   },
-  "keywords": [
-    "vue-pensive-design-system", "vue", "vuejs", "vue-design-system", "vue-pensive", "vue-bootcatch", "bootcatch", "vue-uikit", "vue-bootstrap-uikit", "ui-kit", "bootstrap"
-  ],
-  "author": "Ajay Marathe <0107amar@gmail.com> (http://bootcatch.com/lightly)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ajaymarathe/vue-pensive-design-system/issues"
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-template-compiler": "^2.6.11"
   },
-  "homepage": "https://github.com/ajaymarathe/vue-pensive-design-system#readme"
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

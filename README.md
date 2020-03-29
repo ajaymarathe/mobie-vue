@@ -1,3 +1,24 @@
-# Mobie Vue
+# mobie-vue
 
-Bootstrap + Vue is component based Hybrid mobile framework to create hybrid mobile application which can run on Android, Ios and Desktop., thanks.
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
